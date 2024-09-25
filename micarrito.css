@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: cursive; */
+    overflow: scroll;
+
+
+}
+
+body {
+    background-color: lightyellow;
+    overflow: scroll;
+}
+
+.tarjetero {
+    width: 80%;
+    
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    padding: 20px;
+    background-color: transparent;
+    overflow: scroll;
+}
+
+.tarjeta {
+    /* border: 2px color#000 solid; */
+    border: 2px color#000 solid;
+
+  background-color:transparent;
+    border-radius: 3px;
+    flex: 1;
+    /*min-width: 200px;*/
+    box-shadow: black;
+    flex-direction: column;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    align-content: center;
+    width: 65%;
+    /* background-color: #2f1d58; */
+    height: 70vh;
+    overflow: scroll;
+
+
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.tarjeta p {
+    padding: 15px;
+}
+
+.tarjeta h3 {
+    color: rebeccapurple;
+    text-align: center; /*necesario si es multilinea*/
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /* align-self: center; alinea solo el TEXTO al centro */
+}
+
+
+.tarjeta a {
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    color: aliceblue;
+    flex: 1;
+    background-color: brown;
+    margin: 20px;
+
+}
+
+
+.miBoton {
+
+    /* border: 5px; */
+    margin-bottom:10px;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* text-align: center; */
+    /* align-self: center; alinea solo el boton al centro */
+}
+
+@media screen and (max-width: 800px) {
+
+.tarjetero{display: list-item;
+    
+ }
+.tarjeta {
+    display: list-item;
+    height:auto;
+  
+
+}
+}

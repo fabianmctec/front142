@@ -1,0 +1,29 @@
+.misli {
+    font-size: x-small;
+}
+
+.misli:hover {
+    color: brown;
+    ;
+}
+
+body {
+    margin: 0 auto;
+    /*        background-color:#adc178;*/
+    background-color: #dde5b6;
+    padding: 0;
+}
+
+#bulletFooter {
+    font-family: 'Roboto', Verdana, Arial, sans-serif;
+    font-size: 13px;
+    color: #E06829;
+}
+
+.imagApp {
+    cursor: pointer;
+}
+
+.derecho{
+    padding-bottom: 2px;
+}

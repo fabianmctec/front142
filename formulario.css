@@ -1,0 +1,47 @@
+:root {
+    --color-1: lightyellow;
+    /* fuentes */
+    --color-2: #a98467;
+    --color-3: #adc178;
+    --color-4: darkorange;
+    /* background-color: ; */
+    --color-5: #ffff;
+    --color-6: #c3c3c3;
+}
+
+
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+box{
+    width :40vh;
+    height:  40vh;
+    
+}
+
+body{
+    background-color: lightyellow;
+     /* width: fit-content; */
+     /* background-image: url ("/imagenes/th-4029580358.jpeg"); */
+    }
+input{
+    width: 300px;
+}
+
+  
+  input:valid {
+    border: 2px solid black;
+  }
+  
+  
+
+.form_label{
+    color: var(--color-3);
+}
+
+

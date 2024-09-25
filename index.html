@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Ejemplo</title>
+    <link rel="stylesheet" href="micarrito.css">
+    <link rel="stylesheet" href="indexCss.css">
+    <link rel="stylesheet" href="fuentes.css">
+    <!-- <link rel="stylesheet" href="pies.css"> -->
+    
+
+<style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* Altura total de la ventana */
+        }
+        header {
+                color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .row {
+            display: flex; /* Disposición en fila */
+            flex-grow: 1; /* Para que ocupe el espacio restante */
+            height: 500px
+        }
+        aside {
+            width: 200px; /* Ancho fijo del aside */
+            background-color: #e0e0e0;
+            padding: 10px;
+            padding-left: 30px;
+        }
+        section {
+            flex-grow: 1; /* Ocupa el espacio restante */
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        iframe {
+            width: 100%; /* Ancho del iframe */
+            height: 100%; /* Altura fija del iframe */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img src="/imagenes/vecteezy_easter-resurrection-of-jesus-christ_.jpg" alt="">
+            <h2 class="logo"> Nadie te ama mas que Dios, el te busca siempre y te invita a conocerlo mas en:</h2>
+        </div>
+        <nav>
+            <a class="nav-elemento" href="index.html">Home</a>
+            <a class="nav-elemento" href="#Palabra"> I. Su palabra viva</a>
+            <a class="nav-elemento" href="#Oracion"> II. La Oracion </a>
+            <a class="nav-elemento" href="#Sacramentos"> III. Los Sacramentos </a>
+            <a class="nav-elemento" href="#Santos">IV. Sus Santos</a>
+            <a class="nav-elemento" href="/clientes.html">Clientes</a>
+            <a class="nav-elemento" href="/productos.html">Productos</a>
+
+        </nav>
+
+    </header>
+
+    <div class="row">
+        <aside>
+            <ul>
+                <li> <a href="https://opusdei.org/es/article/sacramentos-iglesia-catolica/" target="_blank"><h3>Los Sacramentos</h3></a></li>
+                <li> <a href="https://www.vatican.va/archive/ESL0506/_INDEX.HTM" target="_blank"><h3>La palabra</h3></a></li>
+                <li> <a href="https://centromedjugorje.org/virgen-de-medjugorje/cumplir-los-mensajes-maria-reina-la-paz-las-cinco-piedras/" target="_blank"><h3>Las 5 piedras</h3> </a></li>
+                <li> <a href="https://es.churchpop.com/estos-5-santos-que-definitivamente-tenian-superpoderes/" target="_blank"><h3>Santos Super</h3> </a></li>
+                <li> <a href="https://www.vaticannews.va/es/iglesia/news/2020-10/carlo-acutis-un-genio-de-la-informatica-en-el-cielo.html" target="_blank"><h3>Apostol de la Red</h3> </a></li>
+                                
+            </ul>
+        </aside>
+        <section>
+ 
+                <div class="tarjetero">
+                     <div class="tarjeta">
+                        <h3>Estudiantes</h3>
+                        <img src="/imagenes/MARIADELOSPOBRES.jpg" alt="">
+                    </div>
+                    <div class="tarjeta">
+                        <h3>Productos</h3>
+                        <img src="/imagenes/artesaanias.jpeg" alt="">
+                    </div>
+             
+ 
+            
+         </section>
+    </div>
+
+
+ 
+</body>
+
+
+</html>
